@@ -8,16 +8,16 @@ ROOT = "http://www.harimenon.com"
 # to
 # http://www.harimenon.com/blog/2009/11/01/laziness-prevails/
 get '/2009/11/laziness-prevails.html' do
-  redirect "#{ROOT}/blog/2009/11/01/laziness-prevails/", 301
+  redirect "#{ROOT}/blog/2009/11/02/laziness-prevails/", 301
 end
 get '/2009/09/husn-e-haqiqi-english-translation.html' do
   redirect "#{ROOT}/blog/2009/09/20/husn-e-haqiqi-english-translation/", 301
 end
 get '/2009/07/it-keeps-flowing.html' do
-  redirect "#{ROOT}/blog/2009/07/16/it-keeps-flowing/", 301
+  redirect "#{ROOT}/blog/2009/07/17/it-keeps-flowing/", 301
 end
 get '/2009/06/out-of-college-and-not-yet-into-first.html' do
-  redirect "#{ROOT}/blog/2009/06/27/out-of-college-and-not-yet-into-first/", 301
+  redirect "#{ROOT}/blog/2009/06/28/out-of-college-and-not-yet-into-first/", 301
 end
 get '/2009/06/why-is-it-that-i-am-not-able-to-blog.html' do
   redirect "#{ROOT}/blog/2009/06/23/why-is-it-that-i-am-not-able-to-blog/", 301
