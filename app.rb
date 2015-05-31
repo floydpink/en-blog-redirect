@@ -73,5 +73,6 @@ get '/feeds/posts/default' do
 end
 
 get '/robots.txt' do
+  content_type 'text/plain'
   'User-agent: *' + "\n" + 'Disallow: /'
 end
