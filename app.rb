@@ -41,7 +41,7 @@ end
 # Redirect
 # http://en.blog.harimenon.com/search/label/cyber%20AWOL
 # to
-# https://harimenon.com/categories/cyber-awol/
+# https://harimenon.com/tags/cyber-awol/
 
 # DevTool -> devtools
 # asp.net -> asp-net
@@ -49,7 +49,7 @@ end
 
 get '/search/label/:label' do |label|
   category = label.downcase.gsub(/\W/) { '-' }
-  redirect "#{ROOT}/categories/#{category}/", 301
+  redirect "#{ROOT}/tags/#{category}/", 301
 end
 
 # http://en.blog.harimenon.com/2011_12_01_archive.html
